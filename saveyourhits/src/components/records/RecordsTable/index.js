@@ -11,7 +11,7 @@ import {
 } from '@chakra-ui/react';
 import api from 'api';
 import PropTypes from 'prop-types';
-import { useMutation, useQueryClient } from 'react-query';
+import { useMutation, useQueryClient } from "react-query";
 import EditableText from './EditableText';
 
 function RecordsTable({ records }) {
